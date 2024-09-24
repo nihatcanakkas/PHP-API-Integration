@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-item {
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.result-item img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  max-height: 375px;
+}
+
+.btn-color {
+  background-color: #8e59f8;
+  color: #fff;
+}
+
+.btn-color::after {
+  background-color: rgb(182, 150, 247);
+  color: #fff;
+}
+
+.profile-image-pic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.cardbody-color {
+  background-color: #ebf2fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+#profileMenu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#profile {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#profile:hover {
+  background-color: #0056b3;
+}
+/* styles.css */
+.profi-link {
+  display: inline-block;
+  color: white; /* Metin rengi */
+  background-color: #007bff; /* Arka plan rengi */
+  padding: 10px 20px; /* İç kenar boşlukları */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+  border-radius: 5px; /* Köşeleri yuvarla */
+  font-family: Arial, sans-serif; /* Yazı tipi */
+  transition: background-color 0.3s ease; /* Arka plan renginin geçiş süresi */
+}
+
+.profi-link:hover {
+  background-color: #0056b3; /* Üzerine gelindiğinde arka plan rengi */
+}
